@@ -1,0 +1,21 @@
+# Virtual environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets & local config
+.env
+*.env.local
+*.env.development
+*.env.production
+
+# Large / generated folders
+chroma_db/
+data/*.pdf
+data/*.docx
+data/*.pptx
+
+# Misc Windows files
+.DS_Store
+Thumbs.db
